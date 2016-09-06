@@ -388,7 +388,7 @@ h1{
 aside {
     margin-top: 5%;
     width: 250px;
-    height:170px;
+    height:300px;
     padding: 0px;
     text-align: center;
     margin-bottom: 5%;
@@ -447,7 +447,7 @@ body {
     width:768px;
     height: 100%;
     background-image: none;
-    background-image: url(../images/palm-trees.jpg);
+    background-image: url(../images/beachbridge.jpeg);
     background-size: 450%, 400%;
 }  
  
@@ -503,7 +503,7 @@ h1{
 
 aside {
     width: 650px;
-    height: 200px;
+    height: 300px;
     margin-top: 5%;
     margin-left: 5%; 
     padding: 10px;
@@ -594,8 +594,8 @@ form h4{    /*only the h4 in the form; thats why form h4*/
 body {
     width:640px;
     height: 100%;
-    background-image: none;
-    background-color: #b6dddb;
+    background-image: url(../images/beachbridge.jpeg);
+    /*background-color: #b6dddb;*/
 }  
  
  section {
@@ -647,7 +647,7 @@ h1{
 
 aside {
     width: 550px;
-    height: 200px;
+    height: 300px;
     margin-top: 5%;
     margin-left: 5%; 
     padding: 10px;
