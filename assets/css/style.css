@@ -27,8 +27,9 @@ body {
     /*border-bottom: 2px solid black;*/
 }
 
+
 header {
-		width: 400px;
+	width: 400px;
     padding: 25px;
     text-align: center;
     margin-top:25px;
@@ -39,9 +40,9 @@ header {
     background-color: #00bfff;
     float: left;
   	font-family: 'Clicker Script', cursive;
-    border: 2px solid black;
-        box-shadow: 10px 10px 5px #888888;
-    ;
+    border: solid 1.5px black;
+    box-shadow: 10px 10px 5px #888888;
+    -webkit-animation-duration: 10s;
 
 }
 
@@ -67,7 +68,8 @@ header {
     text-align: center;
     background-color: white;
     color: #777777;
-    border-left: solid 1px #777777;
+    border: solid 2px black;
+     box-shadow: 7px 7px 5px #888888;
     font-family: 'Clicker Script', cursive;     
 }
 
