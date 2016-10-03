@@ -42,7 +42,7 @@ header {
   	font-family: 'Clicker Script', cursive;
     border: solid 1.5px black;
     box-shadow: 10px 10px 5px #888888;
-    -webkit-animation-duration: 10s;
+    
 
 }
 
@@ -612,6 +612,7 @@ body {
 	width:100%;
 	height: 65px;
     margin-top: 0px;
+    
 }
 
 header {
@@ -622,6 +623,7 @@ header {
   	margin: 0px;
   	border: none;
   	position: static;	
+  	
 }
 
 h1{
@@ -633,7 +635,7 @@ h1{
 }
 #navbar #container ul li a{
     margin:0px;
-    width: 30%;
+    width: 29%;
     font-size: 29px;
     margin-top: 0px;     
 }
