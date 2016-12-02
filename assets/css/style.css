@@ -5,7 +5,7 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(../images/beachbridge.jpeg);
-    background-size: 270%, 170%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0;
@@ -302,7 +302,7 @@ form h4 {
 .item {
     float: left;
     margin: 20px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dekko', cursive;
 }
 
 section div img {
@@ -315,7 +315,7 @@ section div img {
     background-color: #00bfff;
     position: absolute;
     /* to put text overlay*/
-    height: 30px;
+    height: 45px;
     padding-bottom: 5px;
     padding-top: 5px;
     width: 250px;
@@ -323,8 +323,8 @@ section div img {
     margin-left: 20px;
     text-align: center;
     color: white;
-    font-family: 'Dancing Script', cursive;
-    font-size: 26px;
+    font-family: 'Dekko', cursive;
+    font-size: 24px;
 }
 
 #portfolio {}
