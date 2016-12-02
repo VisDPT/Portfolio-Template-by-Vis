@@ -1,64 +1,63 @@
 body {
-	font-size: 18px;
-	line-height: 32px;
-	color: #fffacd;
-    width:100%;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fffacd;
+    width: 100%;
     height: 100%;
     background-image: url(../images/beachbridge.jpeg);
     background-size: 270%, 170%;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 0;
-    margin-left: 0;  
-  }
+    margin-left: 0;
+}
 
 
 /*------------HEADER -----------*/
 
-.headercontainer{
-	width:120%;
-	height: 109px;
-	margin: 0px;
-    margin-left:0px;
-    margin-right:0;
-    left:0;
+.headercontainer {
+    width: 120%;
+    height: 109px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0;
+    left: 0;
     /* background-color: #ffffff;*/
     margin-top: 0;
     /*border-bottom: 2px solid black;*/
 }
 
-
 header {
-	width: 400px;
+    width: 400px;
     padding: 25px;
     text-align: center;
-    margin-top:25px;
+    margin-top: 25px;
     margin-right: 10%;
     margin-left: 5%;
     font-size: 50px;
     color: white;
     background-color: #00bfff;
     float: left;
-  	font-family: 'Clicker Script', cursive;
+    font-family: 'Clicker Script', cursive;
     border: solid 1.5px black;
     box-shadow: 10px 10px 5px #888888;
-    
-
 }
+
 
 /*------------NAV -----------*/
-#navbar {
-}
-#navbar #container ul{
-    list-style: none;
-    margin:0;
-    padding:0;
 
+#navbar {}
+
+#navbar #container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-#navbar #container ul li a{
-    text-decoration:none;
+
+#navbar #container ul li a {
+    text-decoration: none;
     float: left;
-    margin:5px;
+    margin: 5px;
     width: 10%;
     padding: 10px;
     margin-left: 0px;
@@ -69,89 +68,95 @@ header {
     background-color: white;
     color: #777777;
     border: solid 2px black;
-     box-shadow: 7px 7px 5px #888888;
-    font-family: 'Clicker Script', cursive;     
+    box-shadow: 7px 7px 5px #888888;
+    font-family: 'Clicker Script', cursive;
 }
 
 #navbar #container ul li a:hover {
-    background-color: #00bfff;  
+    background-color: #00bfff;
     color: #fffacd;
     border-left: solid 1px #777777;
     font-family: 'Clicker Script', cursive;
-    font-size: 40px;     
+    font-size: 40px;
 }
-	
+
+
 /* --------------------  SECTION:  -------------------*/
+
 section {
     float: left;
     margin: 5% 5%;
-    margin-right: 5%; 
+    margin-right: 5%;
     width: 50%;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border: 1px solid #dddddd;
     padding: 40px;
     font-family: 'Dosis', sans-serif;
     margin-bottom: 30px;
     color: #777777;
     box-shadow: 10px 10px 5px #888888;
-} 
+}
 
 hr {
     width: 88%;
-}	  
-/* ------------ASIDE/CONNECT WITH ME ----------------*/      
+}
+
+
+/* ------------ASIDE/CONNECT WITH ME ----------------*/
+
 aside {
     margin-top: 5%;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     width: 270px;
-    height:300px;
+    height: 300px;
     padding: 5px;
     text-align: center;
-    float:left;
+    float: left;
     padding-right: 20px;
     height: 200px;
-
-
-} 
+}
 
 #title {
     text-align: center;
     margin-left: 10px;
 }
-      
-.connectME{
+
+.connectME {
     border: 1px solid #dddddd;
     padding: 20px;
     box-shadow: 10px 10px 5px #888888;
 }
-      
-.connect{
-    height:50px;
-    background-color: none;
-    border: none;  
-}
-      
-      /*!!!!!!!!HOVER!!!!!!!!*/
-.connect:hover {
-    height:75px;
-  background-color: white; 
-    color: white;  
-    border: none;  
-    border: 3px solid black;
-    box-shadow: 10px 10px 5px #00bfff;;  
- 
 
+.connect {
+    height: 50px;
+    background-color: none;
+    border: none;
 }
+
+
+/*!!!!!!!!HOVER!!!!!!!!*/
+
+.connect:hover {
+    height: 75px;
+    background-color: white;
+    color: white;
+    border: none;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px #00bfff;
+    ;
+}
+
+
 /* ----------------------FOOTER ------------------------*/
+
 .spaceContainer {
     background: none;
     width: 100%;
     height: 20px;
-    padding:10px;
+    padding: 10px;
     float: left;
-    margin-bottom: 15%;   
-    
+    margin-bottom: 15%;
 }
 
 footer {
@@ -166,99 +171,99 @@ footer {
     clear: both;
     text-align: center;
     display: block;
-    left:0;
-     position: fixed;
-    
-
-  /*!!!!!!!!!STICKY FOOTER !!!!!!!!*/
-    height:20px;
+    left: 0;
+    position: fixed;
+    /*!!!!!!!!!STICKY FOOTER !!!!!!!!*/
+    height: 20px;
     margin: 0 auto;
     position: fixed;
-    bottom:0;
-    margin-top: 20px;   
+    bottom: 0;
+    margin-top: 20px;
 }
- 
-/* ------------HOME PAGE: ABOUT ME SECTION ----------------*/	
-  	
+
+
+/* ------------HOME PAGE: ABOUT ME SECTION ----------------*/
 
 #bio-image {
-	height: 200px;
-	float: left;
-	margin: 20px;
-}
-  	
-.mainBio{
-  	background-color: #fafad2;
-  	width: 400px;
-  	margin: auto;
-  	margin-top: 50px;
-  	padding: 20px;
-  	border: 5px solid #deb887;
-	font-family: 'Dosis', sans-serif;
-	font-size: 23px;	
-	float: left;
-	color: #fffacd;
-}
-  	  	
-h1{
-  	font-family: 'Clicker Script', cursive;
-  	text-decoration: underline;
-  	font-size: 33px;
-    color:#00bfff;
-    margin-left: 5%;
+    height: 200px;
+    float: left;
+    margin: 20px;
 }
 
-#h1-2{
+.mainBio {
+    background-color: #fafad2;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 5px solid #deb887;
+    font-family: 'Dosis', sans-serif;
+    font-size: 23px;
+    float: left;
+    color: #fffacd;
+}
+
+h1 {
     font-family: 'Clicker Script', cursive;
     text-decoration: underline;
     font-size: 33px;
-    color:#00bfff;
+    color: #00bfff;
+    margin-left: 5%;
+}
+
+#h1-2 {
+    font-family: 'Clicker Script', cursive;
+    text-decoration: underline;
+    font-size: 33px;
+    color: #00bfff;
     margin-left: 0px;
 }
 
-  #hr-2 {
+#hr-2 {
     width: 98%;
-  }
-  
+}
+
+
 /*---------CONTACT PAGE: CONTACT FORM----------- */
 
-#form-wrap{
-    width:90%;
-    background-color:white;
+#form-wrap {
+    width: 90%;
+    background-color: white;
     margin: auto;
-    padding:auto;
+    padding: auto;
     margin-left: 0;
-  
 }
+
 form {
-    width: 90%; 
+    width: 90%;
     margin: auto;
 }
 
-label{
-    display: block; /*makes it go one on top of other*/
+label {
+    display: block;
+    /*makes it go one on top of other*/
     margin: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #888; 
+    color: #888;
 }
 
-input{
+input {
     width: 98%;
-    margin:0px;
-    height:25;
+    margin: 0px;
+    height: 25;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-textarea{
-    width:98%;
-    height:200px;
-    margin:0;
+textarea {
+    width: 98%;
+    height: 200px;
+    margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-fieldset{
-    border:none;
-    padding:5px;
+fieldset {
+    border: none;
+    padding: 5px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -274,485 +279,425 @@ fieldset{
     color: white;
 }
 
-      /*!!!!!!!!HOVER!!!!!!!!*/
-  .btn:hover{
-      background-color: #ffffff;
-      color: #00bfff;
 
+/*!!!!!!!!HOVER!!!!!!!!*/
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #00bfff;
 }
 
-form h4{    /*only the h4 in the form; thats why form h4*/
-    margin:0;
-    font:25px;
+form h4 {
+    /*only the h4 in the form; thats why form h4*/
+    margin: 0;
+    font: 25px;
     color: #00bfff;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 
 /*--------------- PORTFOLIO SECTION--------------*/
+
 .item {
-    float:left;
+    float: left;
     margin: 20px;
     font-family: 'Dancing Script', cursive;
 }
 
 section div img {
-    width:250px;
-    height:200px;
+    width: 250px;
+    height: 200px;
     margin-left: 20px;
 }
 
 .TEXT {
     background-color: #00bfff;
-    position: absolute; /* to put text overlay*/
-    height:30px;
+    position: absolute;
+    /* to put text overlay*/
+    height: 30px;
     padding-bottom: 5px;
     padding-top: 5px;
     width: 250px;
     margin-top: 160px;
     margin-left: 20px;
     text-align: center;
-    color:white;
+    color: white;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 26px;
 }
 
-#portfolio{
-}
+#portfolio {}
+
 
 /*-----------FIRST PAGE BIO PHOTO ---------*/
 
-  #bio-image {
+#bio-image {
     height: 200px;
     float: left;
     margin: 10px;
-  }
-  
-  
+}
+
+
 /* ------------------MEDIA QUERY! ------------*/
+
+
 /* DESKTOP width */
-@media screen and (max-width: 980px)  {
- body {
-    width:980px;
-    background-size: 350%, 200%;
-    background-position: center;
- }  
- 
- section {
-    width: 400px;
-    background-color:#ffffff;
-    padding: 20px;
- }
- .wrapper{
-    width: 980px;
- } 
-  #bio-image {
-    width: 369px;
-    height: auto;
-    margin: auto;
-    padding: 20px;
-     
-  }
-  
-  .mainBio{
-  	width: 400px;
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 980px;
+        background-size: 350%, 200%;
+        background-position: center;
+    }
+    section {
+        width: 400px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    .wrapper {
+        width: 980px;
+    }
+    #bio-image {
+        width: 369px;
+        height: auto;
+        margin: auto;
+        padding: 20px;
+    }
+    .mainBio {
+        width: 400px;
+    }
+    .headercontainer {
+        height: 80px;
+    }
+    header {
+        width: 350px;
+        padding: 10px;
+        margin-right: 8%;
+        margin-left: 5%;
+        color: white;
+        font-size: 45px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    #navbar #container ul li a {
+        text-decoration: none;
+        float: left;
+        margin: 0px;
+        width: 10%;
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    #navbar #container ul li a:hover {
+        font-size: 20px;
+    }
+    aside {
+        margin-top: 5%;
+        width: 250px;
+        height: 300px;
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    #title {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .connectME {
+        height: 150px;
+        padding: 20px;
+    }
+    #form-wrap {
+        width: 400px;
+        height: 570px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    form {
+        width: 300px;
+        margin: auto;
+    }
+    label {
+        margin: 0px;
+    }
+    input {
+        width: 98%;
+    }
+    textarea {
+        width: 98%;
+        height: 200px;
+    }
+    fieldset {
+        border: none;
+        padding: 0px;
+    }
+    .labelone {
+        margin-top: 0px;
+    }
+    form h4 {
+        /*only the h4 in the form; thats why form h4*/
+        margin: 0;
+        font: 25px;
+    }
 }
 
-.headercontainer{
-		height: 80px;
-}
-header {
-	width: 350px;
-    padding: 10px;
-    margin-right: 8%;
-    margin-left: 5%;
-    color: white;
-  	font-size: 45px; 
-}
-
-h1{
-    font-size: 30px; 
-}
-
-#navbar #container ul li a{
-    text-decoration:none;
-    float: left;
-    margin:0px;
-    width: 10%;
-    font-size: 25px;
-    margin-top: 25px;     
-}
-
-#navbar #container ul li a:hover {
-    font-size: 20px;     
-}
-
-aside {
-    margin-top: 5%;
-    width: 250px;
-    height:300px;
-    padding: 0px;
-    text-align: center;
-    margin-bottom: 5%;
-} 
-
-#title {
-    text-align: left;
-    margin-left: 0px;
-}
-.connectME{    height: 150px;
-    padding: 20px;}
-
-#form-wrap{
-    width:400px;
-    height: 570px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  
-}
-form {
-    width: 300px;
-    margin: auto;
-}
-
-label{
-    margin: 0px;
-}
-
-input{
-    width: 98%;
-}
-
-textarea{
-    width:98%;
-    height:200px;
-}
-
-fieldset{
-    border:none;
-    padding:0px;
-}
-
-.labelone {
-    margin-top: 0px;
-}
-
-form h4{    /*only the h4 in the form; thats why form h4*/
-    margin:0;
-    font:25px;
-}
-}
 
 /* ------TABLET WIDTH------- */
-@media screen and (max-width: 768px)  {
-body {
-    width:768px;
-    height: 100%;
-    background-image: none;
-    background-image: url(../images/beachbridge.jpeg);
-    background-size: 450%, 400%;
-}  
- 
- section {
-    width: 650px;
-    padding: 10px;
- }
- .wrapper{
-    width: 768px;
- } 
 
-.headercontainer{
-	width:100%;
-	height: 65px;
-    margin-top: 0px;
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        height: 100%;
+        background-image: none;
+        background-image: url(../images/beachbridge.jpeg);
+        background-size: 450%, 400%;
+    }
+    section {
+        width: 650px;
+        padding: 10px;
+    }
+    .wrapper {
+        width: 768px;
+    }
+    .headercontainer {
+        width: 100%;
+        height: 65px;
+        margin-top: 0px;
+    }
+    header {
+        width: 270px;
+        padding: 15px;
+        margin-right: 10%;
+        margin-left: 5%;
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    #navbar {}
+    #navbar #container ul {
+        margin: 0;
+        padding: 0;
+    }
+    #navbar #container ul li a {
+        margin: 0px;
+        width: 8%;
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    #navbar #container ul li a:hover {
+        font-size: 23px;
+    }
+    .mainBio {
+        width: 650px;
+        padding: 10px;
+    }
+    aside {
+        width: 650px;
+        height: 300px;
+        margin-top: 5%;
+        margin-left: 5%;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 25px;
+        padding-top: 5%;
+    }
+    footer {
+        position: fixed;
+        margin-bottom: 0;
+        padding-top: 25px;
+    }
+    .connectME {
+        text-align: left;
+    }
+    .connect {
+        margin-left: 25px;
+    }
+    #title {
+        text-align: left;
+        margin-left: 0px;
+    }
+    /* FORM */
+    #form-wrap {
+        width: 650px;
+        height: 570px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    form {
+        width: 500px;
+        margin: auto;
+    }
+    label {
+        margin: 0px;
+    }
+    input {
+        width: 98%;
+    }
+    textarea {
+        width: 98%;
+        height: 200px;
+    }
+    fieldset {
+        border: none;
+        padding: 0px;
+    }
+    .labelone {
+        margin-top: 0px;
+    }
+    form h4 {
+        /*only the h4 in the form; thats why form h4*/
+        margin: 0;
+        font: 25px;
+    }
+    #bio-image {
+        width: 200px;
+        height: auto;
+        float: left;
+        margin: 10px;
+    }
+    .item {
+        float: left;
+        margin: 10px;
+    }
 }
 
-header {
-	width: 270px;
-    padding: 15px;
-    margin-right: 10%;
-    margin-left: 5%;
-  	font-size: 40px;
-  	margin-top: 0px;	
-}
-
-h1{
-    font-size: 28px; 
-    
-}
-
-#navbar {
-}
-#navbar #container ul{
-    margin:0;
-    padding:0;
-}
-#navbar #container ul li a{
-    margin:0px;
-    width: 8%;
-    font-size: 23px;
-    margin-top: 5px;     
-}
-
-#navbar #container ul li a:hover {
-    font-size: 23px;     
-}   
-
-  .mainBio{
-  	width: 650px;
-  	padding: 10px;
-}
-
-aside {
-    width: 650px;
-    height: 300px;
-    margin-top: 5%;
-    margin-left: 5%; 
-    padding: 10px;
-    text-align: left;
-    margin-bottom: 25px;
-    padding-top: 5%;
-} 
-
-footer{
-    position: fixed;
-    margin-bottom:0;
-    padding-top: 25px;
-
-}
-.connectME{
-    text-align: left;
-
-}
-.connect{
-    margin-left:25px; 
-
-}
-
-#title {
-    text-align: left;
-    margin-left: 0px;
-}
-
-/* FORM */
-#form-wrap{
-    width:650px;
-    height: 570px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  
-}
-form {
-    width: 500px;
-    margin: auto;
-}
-
-label{
-    margin: 0px;
-}
-
-input{
-    width: 98%;
-}
-
-textarea{
-    width:98%;
-    height:200px;
-}
-
-fieldset{
-    border:none;
-    padding:0px;
-}
-
-.labelone {
-    margin-top: 0px;
-}
-
-
-form h4{    /*only the h4 in the form; thats why form h4*/
-    margin:0;
-    font:25px;
-}
-
-#bio-image {
-    width: 200px;
-    height: auto;
-    float: left;
-    margin: 10px;
-  }
-  
-.item {
-    float:left;
-    margin: 10px;
-}
-
-
-
-}
 
 /* ------------LANDSCAPE MOBILE WIDTH--------- */
+
 @media screen and (max-width: 640px) {
-body {
-    width:640px;
-    height: 100%;
-    background-image: url(../images/beachbridge.jpeg);
-    /*background-color: #b6dddb;*/
-}  
- 
- section {
-    width: 550px;
-    padding: 10px;
- }
-.wrapper{
-    width: 640px;
- } 
-
-.headercontainer{
-	width:100%;
-	height: 65px;
-    margin-top: 0px;
-    
-}
-
-header {
-	width: 100%;
-	height:40px;
-    padding-top: 15px;
-  	font-size: 40px;
-  	margin: 0px;
-  	border: none;
-  	position: static;	
-  	
-}
-
-h1{
-    font-size: 33px; 
-}
-
-#navbar #container ul{
-    float: none;
-}
-#navbar #container ul li a{
-    margin:0px;
-    width: 29%;
-    font-size: 29px;
-    margin-top: 0px;     
-}
-
-#navbar #container ul li a:hover {
-    font-size: 29px;     
-}
-    
-
-.mainBio{
-  	width: 550px;
-}
-
-aside {
-    width: 550px;
-    height: 300px;
-    margin-top: 5%;
-    margin-left: 5%; 
-    padding: 10px;
-    text-align: left;
-    margin-bottom: 25px;
-} 
-
-footer{
-    position: fixed;
-    margin-bottom:0;
-    padding-top: 25px;
-}
-
-.connectME{
-    text-align: left;
-}
-
-#title {
-    text-align: left;
-    margin-left: 0px;
-}
-.connect{
-    margin-left:25px; 
-}
-
-
-/* FORM */
-#form-wrap{
-    width:550px;
-    height: 570px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  
-}
-form {
-    width: 500px;
-    margin: auto;
-}
-
-label{
-    margin: 0px;
-}
-
-input{
-    width: 98%;
-}
-
-textarea{
-    width:98%;
-    height:200px;
-}
-
-fieldset{
-    border:none;
-    padding:0px;
-}
-
-.labelone {
-    margin-top: 0px;
-}
-
-.btn {
-    width: 150px;
-    height: 50px;
-    font-size: 24px;
-    padding-top: 0px;
-    padding-bottom: 0px;
- 
-}
-
-
-form h4{    /*only the h4 in the form; thats why form h4*/
-    margin:0;
-    font:25px;
-}
-
-#bio-image {
-    width: 200px;
-    height: auto;
-    float: left;
-    margin: 10px;
-  }
-  
-.item {
-    float:none;
-    margin: 20px;
-}
-
-section div img {
-    width:500px;
-    height:450px;
-    margin-left: 0px;
-}
-
-.TEXT {
-    height: 45px;
-    padding-bottom: 0px;
-    padding-top: 12px;
-    width: 500px;
-    margin-top: 380px;
-    margin-left: 0px;
-    font-size: 38px;
-}
+    body {
+        width: 640px;
+        height: 100%;
+        background-image: url(../images/beachbridge.jpeg);
+        /*background-color: #b6dddb;*/
+    }
+    section {
+        width: 550px;
+        padding: 10px;
+    }
+    .wrapper {
+        width: 640px;
+    }
+    .headercontainer {
+        width: 100%;
+        height: 65px;
+        margin-top: 0px;
+    }
+    header {
+        width: 100%;
+        height: 40px;
+        padding-top: 15px;
+        font-size: 40px;
+        margin: 0px;
+        border: none;
+        position: static;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    #navbar #container ul {
+        float: none;
+    }
+    #navbar #container ul li a {
+        margin: 0px;
+        width: 29%;
+        font-size: 29px;
+        margin-top: 0px;
+    }
+    #navbar #container ul li a:hover {
+        font-size: 29px;
+    }
+    .mainBio {
+        width: 550px;
+    }
+    aside {
+        width: 550px;
+        height: 300px;
+        margin-top: 5%;
+        margin-left: 5%;
+        padding: 10px;
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    footer {
+        position: fixed;
+        margin-bottom: 0;
+        padding-top: 25px;
+    }
+    .connectME {
+        text-align: left;
+    }
+    #title {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .connect {
+        margin-left: 25px;
+    }
+    /* FORM */
+    #form-wrap {
+        width: 550px;
+        height: 570px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    form {
+        width: 500px;
+        margin: auto;
+    }
+    label {
+        margin: 0px;
+    }
+    input {
+        width: 98%;
+    }
+    textarea {
+        width: 98%;
+        height: 200px;
+    }
+    fieldset {
+        border: none;
+        padding: 0px;
+    }
+    .labelone {
+        margin-top: 0px;
+    }
+    .btn {
+        width: 150px;
+        height: 50px;
+        font-size: 24px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    form h4 {
+        /*only the h4 in the form; thats why form h4*/
+        margin: 0;
+        font: 25px;
+    }
+    #bio-image {
+        width: 200px;
+        height: auto;
+        float: left;
+        margin: 10px;
+    }
+    .item {
+        float: none;
+        margin: 20px;
+    }
+    section div img {
+        width: 500px;
+        height: 450px;
+        margin-left: 0px;
+    }
+    .TEXT {
+        height: 45px;
+        padding-bottom: 0px;
+        padding-top: 12px;
+        width: 500px;
+        margin-top: 380px;
+        margin-left: 0px;
+        font-size: 38px;
+    }
 }
