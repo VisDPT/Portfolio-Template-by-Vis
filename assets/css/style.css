@@ -91,7 +91,8 @@ section {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     padding: 40px;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dekko', cursive;
+    ;
     margin-bottom: 30px;
     color: #777777;
     box-shadow: 10px 10px 5px #888888;
@@ -197,7 +198,7 @@ footer {
     margin-top: 50px;
     padding: 20px;
     border: 5px solid #deb887;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Dekko', cursive;
     font-size: 23px;
     float: left;
     color: #fffacd;
