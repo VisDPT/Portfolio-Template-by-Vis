@@ -36,10 +36,10 @@ header {
     margin-left: 5%;
     font-size: 50px;
     color: white;
-    background-color: #00bfff;
+    background-color: lightskyblue;
     float: left;
     font-family: 'Clicker Script', cursive;
-    border: solid 1.5px black;
+    border: double 6px black;
     box-shadow: 10px 10px 5px #888888;
 }
 
@@ -336,6 +336,7 @@ section div img {
     height: 200px;
     float: left;
     margin: 10px;
+    border: 6px grey double
 }
 
 
