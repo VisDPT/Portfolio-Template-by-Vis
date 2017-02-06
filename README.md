@@ -1,5 +1,5 @@
 #Portfolio Template by Vis
 
-Link: http://calm-wildwood-88987.herokuapp.com/index.html
+Link: https://portfolio-template-by-vis.herokuapp.com
 
 Technologies: HTML, CSS, animate.css
